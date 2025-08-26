@@ -132,7 +132,7 @@ main p{
             }
 
             #navmenu{
-                display: block!important;
+                display: block!important; /* obriga o css a obdecer o que esta aqui independent de ordem de cascata*/
             }
 
             ul{
