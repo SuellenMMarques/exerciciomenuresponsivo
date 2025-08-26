@@ -120,3 +120,43 @@ main p{
 
 
 }
+
+        @media screen and (min-width: 856px) {
+
+            header h1{
+                font-size: 3em;
+            }
+
+            #burguer{
+                display: none;
+            }
+
+            #navmenu{
+                display: block!important;
+            }
+
+            ul{
+                text-align: left;
+            }
+
+            li{
+                display: inline-block;
+            }
+
+            a{
+                font-size: 1.3em;
+            }
+
+            main{
+                width: 50%;
+            }
+
+            main h2{
+                font-size: 2em;
+            }
+
+            main p{
+                font-size: 1.5em;
+            }
+
+        }
